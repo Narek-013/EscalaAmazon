@@ -1,0 +1,29 @@
+.burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 50px;
+  margin-top: 40px;
+  margin-left: 35px;
+  width: 100%;
+  a {
+    color: #4d4d4d;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-right: 56px;
+  }
+  .active {
+    color: #f55253;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 32px;
+  }
+}

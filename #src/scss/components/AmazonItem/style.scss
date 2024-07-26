@@ -1,0 +1,33 @@
+.amazon-item {
+  width: 100%;
+  .amazon-item__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    @media (max-width: 1350px) {
+      display: none;
+    }
+    .amazon-item__container-img {
+      width: 80%;
+    }
+
+    .amazon-item__container-items {
+      top: 260px;
+      position: absolute;
+      display: flex;
+      column-gap: 54px;
+      background-color: transparent;
+      height: 500px;
+
+      .amazon-item__container-end{
+        margin-top: 135px;
+      }
+      .amazon-item__container-item {
+        margin-top: 88px;
+      }
+      
+    }
+  }
+}

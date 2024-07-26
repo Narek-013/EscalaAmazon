@@ -1,0 +1,48 @@
+<section class="product">
+  <div class="product__container _container">
+    <div class="product__container-border"></div>
+    <h1>Give your products a name and description</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisc.</p>
+    <div class="product__container-inputs">
+      <input
+        class="product__container-input-name"
+        type="text"
+        placeholder="Product name"
+      />
+      <input
+        class="product__container-input-price"
+        type="text"
+        placeholder="Price"
+      />
+    </div>
+    <input
+      class="product__container-input-area"
+      type="area"
+      placeholder="Description"
+    />
+    <div class="product__container-button">
+      @@include('../../uikit/SuccsessButton/_index.html',{})
+    </div>
+    <div class="product__container-img">
+      <button>
+        <img src="/img/plus.png" alt="img" />
+        Add a New Image
+      </button>
+      <button>
+        <img src="/img/plus.png" alt="img" />
+        Add a New Image
+      </button>
+      <button>
+        <img src="/img/plus.png" alt="img" />
+        Add a New Image
+      </button>
+      <button>
+        <img src="/img/plus.png" alt="img" />
+        Add a New Image
+      </button>
+    </div>
+    <div class="product__container-send-button">
+      @@include('../../uikit/button/_index.html',{"title":"Send to review"})
+    </div>
+  </div>
+</section>
