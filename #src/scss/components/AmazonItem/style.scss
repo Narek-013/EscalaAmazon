@@ -9,11 +9,11 @@
     @media (max-width: 1350px) {
       display: none;
     }
-    .amazon-item__container-img {
+    .amazon-img {
       width: 80%;
     }
 
-    .amazon-item__container-items {
+    .amazon-items {
       top: 260px;
       position: absolute;
       display: flex;
@@ -21,13 +21,13 @@
       background-color: transparent;
       height: 500px;
 
-      .amazon-item__container-end{
-        margin-top: 135px;
+      .product-item:nth-child(odd) {
+        margin-top: 78px;
       }
-      .amazon-item__container-item {
-        margin-top: 88px;
+      .product-item:last-child,
+      .product-item:first-child {
+        margin-top: 140px;
       }
-      
     }
   }
 }

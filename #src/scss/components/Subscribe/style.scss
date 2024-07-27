@@ -1,10 +1,9 @@
 .subscribe {
   width: 100%;
-  background-image: url("/img/subback.png");
+  background-image: url("../img/subback.png");
   padding: 80px 20px 88px;
   @media (max-width: 999px) {
-  padding: 40px 20px 28px;
-    
+    padding: 40px 20px 28px;
   }
   .subscribe__container {
     display: flex;
@@ -38,10 +37,9 @@
       }
     }
 
-    .subscribe__container-input {
-      width: 502px;
+    div {
+      max-width: 502px;
       height: 78px;
-      flex-shrink: 0;
       border-radius: 37.5px;
       background: #fff;
       box-shadow: 0px 40px 100px -40px #120500;
@@ -67,12 +65,12 @@
       }
 
       button {
-        margin-left: 150px;
+        margin-left: 140px;
         border-radius: 50px;
         background: #ffb200;
         width: 139px;
         height: 70px;
-        flex-shrink: 0;
+        margin-right: 5px;
         color: #fff;
         text-align: center;
         font-family: Inter;
@@ -86,16 +84,17 @@
           margin-left: 0;
         }
       }
-      .subscribe__container-input_polygon {
-        position: absolute;
-        left: -180px;
-        top: -70px;
-        @media (max-width: 999px) {
-          display: none;
-        }
+    }
+
+    .polygon-img {
+      position: absolute;
+      left: -180px;
+      top: -70px;
+      @media (max-width: 999px) {
+        display: none;
       }
     }
-    .subscribe__container-input_ellipse {
+    img:last-child {
       position: absolute;
       right: -220px;
       top: -140px;

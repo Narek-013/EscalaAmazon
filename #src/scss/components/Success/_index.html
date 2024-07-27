@@ -1,31 +1,27 @@
 <section class="succsess">
   <div class="succsess__container _container">
-    <img
-      class="succsess__container-img"
-      src="/img/elipsesuccses.png"
-      alt="img"
-    />
-    <div class="succsess__container-block">
+    <img class="succsess-img" src="img/elipsesuccses.png" alt="img" />
+    <div class="succsess-top">
       <h2>Success stories</h2>
-      <p class="succsess__container-p">
+      <h5>
         We are proud of our customers' success. Find out how we've helped
         businesses like yours bring their handmade products to the US market and
         increase sales on Amazon. Every success story is a testament to our
         dedication and expertise.
-      </p>
-      <div class="succsess__container-buttons">
+      </h5>
+      <div class="succsess-buttons">
         @@include('../../uikit/SuccsessButton/_index.html',{})
-        <div class="succsess__container-buttons-right">
-          <button class="succsess__container-buttons-right__first"><img src="/img/arrowleft.png" alt="img" /></button>
-          <button class="succsess__container-buttons-right__second"><img src="/img/arrowright.png" alt="img" /></button>
+        <div>
+          <button><img src="img/arrowleft.png" alt="img" /></button>
+          <button><img src="img/arrowright.png" alt="img" /></button>
         </div>
       </div>
-      <div class="succsess__container-items">
+      <div class="succsess-items">
         @@include('../../uikit/SuccsessItem/_index.html',{"title":"Artisan from Oslo","text":" Maria, an artisan from Oslo, created unique handmade jewelry, but had difficulty expanding her business internationally.","image":"/img/succsesim2.png"})
         @@include('../../uikit/SuccsessItem/_index.html',{"title":"Craftsmen from Dorotea","text":"A group of craftsmen from Dorotea wanted to sell their traditional handicrafts outside of Norway , but they didn't know where to start.","image":"/img/succsesim.png","activeh3":"activeh3"})
         @@include('../../uikit/SuccsessItem/_index.html',{"title":"Furniture Maker","text":"Alex, a designer of handmade furniture, wanted to tap into the American market but faced logistical and marketing challenges.","classs":"succsess__container-items-active","image":"/img/succsesim2.png","activeh4":"activeh4"})
       </div>
     </div>
-    <button class="succsess__container-button">Discover  more cases <img src="/img/successbtnimg.png" alt="img"></button>
+    <button class="succsess-button">Discover  more cases <img src="img/successbtnimg.png" alt="img"></button>
   </div>
 </section>

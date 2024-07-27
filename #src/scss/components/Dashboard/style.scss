@@ -10,13 +10,13 @@
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 36px;
-    .dashboard__container-border {
+    .dashboard-border {
       margin-top: 41px;
       width: 233.25px;
       height: 1px;
       border: 1px solid rgba(224, 225, 226, 0.3);
     }
-    .dashboard__container-location {
+    .dashboard-location {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -68,11 +68,11 @@
       }
     }
 
-    .dashboard__container-payment {
+    .dashboard-payment {
       display: flex;
       flex-direction: column;
       row-gap: 17px;
-      .dashboard__container-payment_item {
+      .dashboard-payment_item {
         width: 216px;
         height: 80px;
         flex-shrink: 0;
@@ -80,7 +80,7 @@
         align-items: center;
         justify-content: space-between;
 
-        .dashboard__container-payment_item-card {
+        div {
           h3 {
             color: var(--Gray-Gray-400, #a0aec0);
             font-family: Helvetica;
@@ -117,7 +117,7 @@
         }
       }
     }
-    .dashboard__container-help {
+    .dashboard-help {
       padding: 16px;
       width: 234px;
       height: 170px;

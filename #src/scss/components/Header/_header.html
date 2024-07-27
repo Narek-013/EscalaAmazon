@@ -1,34 +1,18 @@
 <header class="header">
   <div class="header__container _container">
-    <img class="header__container-logo-img" src="/img/logo.png" alt="img" />
-    <div>
-      <a href="/" class="active">About us</a>
-      <a href="/">Services</a>
-      <a href="/">How it works</a>
-      <a href="/">Cases</a>
-      <a href="/">Contact</a>
-    </div>
-    <div class="header__container-right">
-      <span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="2"
-          height="28"
-          viewBox="0 0 2 28"
-          fill="none"
-        >
-          <path d="M1 0.5L1 27.5" stroke="#F2F2F2" stroke-width="1.5" />
-        </svg>
-      </span>
-      <div class="header__container-button">
-        @@include('../../uikit/button/_index.html',{"title":"Create an account"})
-      </div>
-      <button>
-        <img class="hamburger-img" src="/img/hamburger.png" alt="img" />
-      </button>
+    <img src="img/logo.png" alt="img" />
+       <ul>
+        <li><a href="/" class="active">About us</a></li>
+        <li><a href="/">Services</a></li>
+        <li><a href="/">How it works</a></li>
+        <li><a href="/">Cases</a></li>
+        <li><a href="/">Contact</a></li>
+       </ul>
+    <div class="header__buttons">
+      <span></span>
+      @@include('../../uikit/button/_index.html',{"title":"Create an account"})
+      <img src="img/hamburger.png" alt="img" />
     </div>
   </div>
-  <div class="burger-menu">
-    @@include('../BurgerMenu/_index.html')
-  </div>
+  <div class="burger-menu">@@include('../BurgerMenu/_index.html')</div>
 </header>

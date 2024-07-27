@@ -21,7 +21,7 @@
     @media (max-width: 520px) {
       width: 210px;
     }
-    .slider-item__shape-img {
+    img:first-child {
       width: 96px;
       height: 16px;
       flex-shrink: 0;
@@ -40,14 +40,14 @@
       flex-shrink: 0;
     }
 
-    .slider-item__user-block {
+    div {
       display: flex;
       column-gap: 16px;
       margin-top: 17px;
       @media (max-width: 520px) {
         margin-top: 35px;
       }
-      .slider-item__user-img {
+      img:first-child {
         border-radius: 40px;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
         width: 40px;
